@@ -85,21 +85,20 @@ W wyniku aktywacji przed znakiem zachęty w konsoli powinna pojawić się nazwa 
 (bootcamp_env) >
 ```
 
-### Instalacja kernela dla utworzonego środowiska
-
-Przy aktywowanym środowisku należy wywołać komendy:
-```
-(bootcamp_env) > pip install ipykernel
-(bootcamp_env) > ipython kernel install --user --name=bootcamp_env
-```
-Po tej operacji zostanie utworzony kernel jupytera dla środowiska wirtualnego.
-
 ### Instalacja potrzebnych bibliotek
 
 W katalogu, w którym się znajdujecie jest plik `requirements.txt`. Zawiera on wszystkie potrzebne do przeprowadzenia warsztatów biblioteki. Aby je zainstalować nalezy wywołać komendę:
 ```
 (bootcamp_env) > pip install -r requirements.txt
 ```
+
+### Instalacja kernela dla utworzonego środowiska
+
+Przy aktywowanym środowisku należy wywołać komendę:
+```
+(bootcamp_env) > ipython kernel install --user --name=bootcamp_env
+```
+Po tej operacji zostanie utworzony kernel jupytera dla środowiska wirtualnego.
 
 ## Sprawdzenie czy konfiguracja środowiska przebiegła pomyślnie
 Należy wywołać komendę w głównym katalogu repozytorium:
