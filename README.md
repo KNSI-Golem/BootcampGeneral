@@ -96,7 +96,7 @@ Po tej operacji zostanie utworzony kernel jupytera dla środowiska wirtualnego.
 
 ### Instalacja potrzebnych bibliotek
 
-W katalogu, w którym się znajdujecie jest się plik `requirements.txt`. Zawiera on wszystkie potrzebne do przeprowadzenia warsztatów biblioteki. Aby je zainstalować nalezy wywołać komendę:
+W katalogu, w którym się znajdujecie jest plik `requirements.txt`. Zawiera on wszystkie potrzebne do przeprowadzenia warsztatów biblioteki. Aby je zainstalować nalezy wywołać komendę:
 ```
 (bootcamp_env) > pip install -r requirements.txt
 ```
