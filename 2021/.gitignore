@@ -1,0 +1,6 @@
+/bootcamp_env
+/.ipynb_checkpoints
+/venv
+**/__pycache__
+*test.ipynb
+/rl
