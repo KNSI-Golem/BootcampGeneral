@@ -6,3 +6,4 @@ notebook
 matplotlib
 torch
 ipykernel
+seaborn
