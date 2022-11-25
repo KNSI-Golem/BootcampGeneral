@@ -7,3 +7,5 @@ matplotlib
 torch
 ipykernel
 seaborn
+torch
+torchvision
