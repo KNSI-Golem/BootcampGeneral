@@ -22,7 +22,7 @@ Aby przygotować środowisko do pracy z materiałami zawartymi w tym repozytoriu
 ### Instalacja pythona 3.9.7
 
 Tutaj sposób instalacji będzie zależał od systemu operacyjnego, generalnie pod tym linkiem można się dowiedzieć jak zainstalować pythona na swojej maszynie ⇒ https://www.python.org/  
-**Uwaga:** Python powinien być pobrany w odpowiedniej wersji (3.9.7) oraz razem z pythonem należy zainstalować pip, czyli menadżer pakietów pythona.
+**Uwaga:** Python powinien być pobrany w odpowiedniej wersji (3.9.7 lub nowsza) oraz razem z pythonem należy zainstalować pip, czyli menadżer pakietów pythona.
 
 Aby sprawdzić czy python i pip zostały poprawnie zainstalowane należy wpisać w konsolę komendy:
 ```python --version``` oraz ```pip --version```.
