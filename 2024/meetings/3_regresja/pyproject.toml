@@ -1,0 +1,19 @@
+[project]
+name = "3_regression"
+version = "0.1.0"
+description = "Regression introduction"
+authors = [
+    {name = "Wojtek Zarzecki", email = "wojciechzarzecki5@gmail.com"},
+]
+dependencies = ["jupyter>=1.1.1", "numpy>=2.1.3", "matplotlib>=3.9.2", "pandas>=2.2.3", "seaborn>=0.13.2", "scikit-learn>=1.5.2"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "AGPL-3.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
